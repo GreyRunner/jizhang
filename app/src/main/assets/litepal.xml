@@ -1,0 +1,8 @@
+<litepal>
+    <dbname value="jizhangben"/>
+    <version value="1"/>
+    <list>
+        <mapping class="cn.itcast.test2.zhangmu"/>
+      
+    </list>
+</litepal>

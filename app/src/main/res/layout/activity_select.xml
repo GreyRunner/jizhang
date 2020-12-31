@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account">
+    <RelativeLayout
+        android:id="@+id/account_R_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ececec">
+        <RelativeLayout
+            android:id="@+id/account_R_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#005ABD">
+            <Button
+                android:id="@+id/btn_return"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/up"/>
+            <TextView
+                android:id="@+id/account_tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查询结果"
+                android:textSize="22sp"
+                android:layout_centerInParent="true"
+                android:textColor="#ffffff"/>
+        </RelativeLayout>
+        <RelativeLayout
+
+            android:id="@+id/account_R_3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/account_R_2"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/shouru_zhichu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="收入OR支出: "
+                android:textSize="22sp"
+                android:textColor="#000000"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/account_R_4"
+            android:layout_below="@id/account_R_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/account_R_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/frame1">
+                <TextView
+                    android:id="@+id/money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="金额: "
+                    android:textSize="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/account_R_6"
+                android:layout_below="@id/account_R_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/frame1">
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分类"
+                    android:textSize="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000000"/>
+            </RelativeLayout>
+            <Button
+                android:id="@+id/btn_bianji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_start"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="编辑"
+                android:layout_marginTop="450dp"
+                android:textSize="20sp"
+                android:textColor="#ffffff"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
